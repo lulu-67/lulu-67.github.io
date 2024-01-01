@@ -20,11 +20,6 @@ body {
     width: 100%; /* Ensure container fills left space */
 }
 
-.horizontal_container {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-}
 
 .header {
     background: #333;
