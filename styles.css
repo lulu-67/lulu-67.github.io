@@ -39,7 +39,15 @@ body {
     align-items: center;
 }
 
-
+.headerContent {
+    /* If you want more control over the text alignment or spacing, add styles here */
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .profileImage {
     width: 200px; /* Adjust as needed */
