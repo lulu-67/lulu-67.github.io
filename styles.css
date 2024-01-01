@@ -91,17 +91,22 @@ footer {
 }
 
 /* Responsive adjustments */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     body {
         flex-direction: column; /* Stack vertically on small screens */
     }
 
     .container, .profileImage {
-        width: 100%; /* Full width on small screens */
+        width: 80%; /* Full width on small screens */
         margin-left: 0; /* Align center */
     }
 
     .main-nav {
         flex-direction: column;
+    }
+
+    .header {
+        flex-direction: column; /* Stacks the flex items vertically */
+        align-items: flex-start; /* Align items to the start of the flex container */
     }
 }
