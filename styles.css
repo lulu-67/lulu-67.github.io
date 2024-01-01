@@ -5,8 +5,10 @@
     box-sizing: border-box;
 }
 
+
+
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Times New Roman', serif;
     line-height: 1.6;
     color: #333;
     background: #f4f4f4;
@@ -31,6 +33,12 @@ body {
     text-decoration: none;
     padding: 0 15px;
 }
+
+.profileImage {
+    width: 200px;
+    height: auto;
+}
+
 
 .main-nav a:hover {
     background-color: #555;
